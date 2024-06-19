@@ -27,10 +27,16 @@ ng build --output-path docs --base-href /manual-deploy/
 5. Add, Commit and Push changes to remote repository.
 
 ```
-git add .
-git commit -m "project init"
-git push
+git add . && git commit -m "project init" && git push
 ```
+
+6. Go to web repository, in **Settings > Pages**.
+
+7. Select branch (main) and folder (docs).
+
+8. App should be up and running in url **[https://{{github_user}}.github.io/{{repo_name}}/](https://yuribg.github.io/manual-deploy/)**.
+
+https://yuribg.github.io/manual-deploy/
 
 # Angular CLI app commands
 
